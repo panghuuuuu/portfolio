@@ -1,0 +1,45 @@
+* {
+  background-color: #12161e;
+}
+
+.header-section {
+  margin: 200px;
+}
+
+.header-section h4 {
+  color: #66fcf1;
+}
+
+.header-section h1,
+p {
+  color: white;
+}
+
+.header-section h2 {
+  color: #c5c6c7;
+}
+
+.buttons {
+  display: flex;
+}
+
+.btn-primary {
+  border: 1px solid #66fcf1;
+  border-radius: 0.4rem;
+  background-color: #66fcf1;
+  padding: 0.75rem 1.2rem;
+  margin-right: 50px;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.btn-secondary {
+  border: 1px solid #45a29e;
+  border-radius: 0.4rem;
+  padding: 0.75rem 1.2rem;
+  color: #45a29e;
+}
