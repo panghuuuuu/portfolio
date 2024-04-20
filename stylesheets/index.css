@@ -43,3 +43,19 @@ p {
   padding: 0.75rem 1.2rem;
   color: #45a29e;
 }
+
+.tech-section {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin: 200px;
+}
+
+.left-container {
+  flex: 1;
+}
+
+.right-container {
+  flex: 2;
+  color: white;
+}
